@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'loopStudios';
+
+    isMenuOpen = false;
+
+  navToggle() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 }
+ 
+
+
